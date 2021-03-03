@@ -32,8 +32,17 @@ class MainActivity : AppCompatActivity() {
         surface_view.setOnTouchListener(modelViewer)
 
         //loadGlb("DamagedHelmet")
-        loadGlb("Chopper")
+        //loadGlb("Chopper")
         //loadGltf("BusterDrone")
+        //loadGltf("Space_Shuttle_Animation_Sequance")
+
+        loadGlb("Airplane_Compressed_glb")
+        //loadGlb("Airplane_None_Compressed_glb")
+
+        //loadGltf("Airplane_Compressed_gltf")
+        //loadGltf("Airplane_None_Compressed_gltf")
+
+
         loadEnvironment("venetian_crossroads_2k")
 
         //modelViewer.scene.skybox = Skybox.Builder().build(modelViewer.engine)
